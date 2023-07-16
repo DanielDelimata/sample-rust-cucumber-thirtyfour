@@ -1,0 +1,16 @@
+[package]
+name = "thirtyfour_cucumber_example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cucumber = { version = "0.20.0", features = ["output-junit"] }
+thirtyfour = { version = "0.31.0", features = ["component"] }
+async-trait = "0.1"
+tokio = "1.16.1"
+
+[[test]]
+name = "test_runner" # this should be the same as the filename of your test target
+harness = false  # allows Cucumber to print output instead of libtest
