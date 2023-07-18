@@ -1,5 +1,5 @@
 [package]
-name = "thirtyfour_cucumber_example"
+name = "sample_rust_cucumber_thirtyfour"
 version = "0.1.0"
 edition = "2021"
 

@@ -1,6 +1,6 @@
 use cucumber::{given, then, when};
 use thirtyfour::prelude::WebDriverResult;
-use thirtyfour_cucumber_example::customerspage::CustomersPage;
+use sample_rust_cucumber_thirtyfour::customerspage::CustomersPage;
 
 use super::super::Context;
 
